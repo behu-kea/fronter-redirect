@@ -8,8 +8,12 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://kea-fronter.itslearning.com/*"],
-      "js": ["fronter-redirect.js"]
+      "matches": [
+        "https://kea-fronter.itslearning.com/*"
+      ],
+      "js": [
+        "fronter-redirect.js"
+      ]
     }
   ],
   "browser_specific_settings": {
@@ -18,5 +22,7 @@
       "strict_min_version": "42.0"
     }
   },
-  "permissions": ["tabs", "storage"]
+  "permissions": [
+    "storage"
+  ]
 }
